@@ -23,7 +23,7 @@ def predict():
         file = request.files["image"]
         image_path = "./images/" + file.filename
         file.save(image_path)
-        model = load_model("C:/Users/T-user/Desktop/code/123/wookgid/model.h5")
+        model = load_model("C:/Users/swl/Desktop/Code/123/wookgid/model.h5")
         img = load_img(image_path, target_size=(64, 64))
         img_array = img_to_array(img)
         input_array = img_array.reshape((1, 64, 64, 3))
