@@ -156,8 +156,20 @@ body {
             <button class="btn btn-primary btn-lg" type="submit" value="예측">예측</button>
           </div>
           </form>
-          {% if prediciton %}
-          <p class = "text-center">image is a {{prediciton}}</p>
+          {% if prediciton==0 %}
+          <p class = "text-center">predict is... <a href="/0">피부겸양성 모반</a></p>
+          {% elif prediciton==1 %}
+          <p class = "text-center">predict is... <a href="/1">흑색종/a></p>
+          {% elif prediciton==2 %}
+          <p class = "text-center">predict is... <a href="/2">양성 각화유사 병변</a></p>
+          {% elif prediciton==3 %}
+          <p class = "text-center">predict is...<a href="/3">기저세포암</a></p>
+          {% elif prediciton==4 %}
+          <p class = "text-center">predict is... <a href="/4">선성 각화증</a></p>
+          {% elif prediciton==5 %}
+          <p class = "text-center">predict is... <a href="/5">혈관 병변</a></p>
+          {% elif prediciton==6 %}
+          <p class = "text-center">predict is... <a href="/6">피부섬유종</a></p>
           {% endif %}
       </div>
     </div>

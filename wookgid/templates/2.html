@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link href="css/styles.css" rel="stylesheet" />
         <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -11,6 +10,7 @@
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body>
         <!-- Responsive navbar-->
@@ -34,7 +34,7 @@
                         <!-- Post header-->
                         <header class="mb-4">
                             <!-- Post title-->
-                            <h1 class="fw-bolder mb-1">멜라닌 세포 모반</h1>
+                            <h1 class="fw-bolder mb-1">양성 각화유사 병변</h1>
                             <!-- Post meta content-->
                             <div class="text-muted fst-italic mb-2">인공지능 팀프로젝트/2023.06.08</div>
                             <!-- Post categories-->
@@ -43,16 +43,22 @@
                         <figure class="mb-4"><img class="img-fluid rounded" src="{{ image_url }}" alt="..." /></figure>
                         <!-- Post content-->
                         <section class="mb-5">
-                            <p class="fs-5 mb-4">멜라닌 세포 모반 ( nevocytic nevus , nevus-cell nevus 및 일반적으로 두더지 라고도 함 )은 일반적으로 색소 생성 피부 세포의 비암성 상태입니다 </p>
-                            <p class="fs-5 mb-4"> 모반은 납작하거나 융기될 수 있고, 부드럽거나 거칠 수 있으며(사마귀처럼), 모반에서 털이 자라날 수 있습니다. </p>
-                            <p class="fs-5 mb-4">모반은 대체로 피부색이며 노란색, 갈색, 청회색 또는 검정색에 가까운 빛을 띱니다.</p>
-                            <p class="fs-5 mb-4">모반은 흔히 아동기 또는 청소년기에 생기며, 기존에 모반이 있던 경우는 보통 성장에 비례하여 크기가 커지고 짙은 색으로 변합니다.</p>
-                            <p class="fs-5 mb-4">평생 모반이 발생하는 사람도 있습니다. 모반은 신체 어느 부위에서나 나타날 수 있습니다. </p>
+                            <p class="fs-5 mb-4">양성 각화유사 병변은 섬유 조직에서 발생하는 양성 종양으로, 일반적으로 피부 또는 연조직에서 발생합니다.
+                                섬유종은 주로 결절 또는 종기 형태로 나타나며, 일반적으로 비전염성이며 통증이나 감염을 유발하지 않습니다.
+                            </p>                            
+                            <h2 class="fw-bolder mb-4 mt-5">증상</h2>
+                            <p class="fs-5 mb-4">1.종양의 부풀어오름이나 종양 주위의 통증</p>
+                            <p class="fs-5 mb-4">2.피부의 변화나 발진</p>
+                            <p class="fs-5 mb-4">3.근육이나 관절의 통증</p>
+                            <p class="fs-5 mb-4">4.신체 부의의 부종이나 종양의 압박에 의한 신경 손상으로 인한 감각 이상</p>
                             <h2 class="fw-bolder mb-4 mt-5">예방법</h2>
-                            <p class="fs-5 mb-4">햇빛 차단: 자외선에 노출을 최소화하기 위해 햇볕이 가장 강한 오전 10시부터 오후 4시까지는 직사광선을 피하고, 햇빛이 강한 때에는 모자, 선글라스, 모래 등으로 피부를 보호해야 합니다.</p>
-                            <p class="fs-5 mb-4">자외선 차단제 사용: 자외선 차단제를 꾸준히 사용하여 피부를 보호하는 것이 좋습니다. SPF 지수가 높은 자외선 차단제를 사용하고 자주 발라야 합니다.</p>
-                            <p class="fs-5 mb-4">소량의 자외선에 노출: 자외선은 비타민 D를 생성하는 데 필요하지만 과도한 자외선 노출은 피부암 위험을 증가시킬 수 있습니다. 적절한 양의 자외선에 노출하여 필요한 비타민 D를 얻을 수 있도록 합니다.</p>
-                            <p class="fs-5 mb-4">피부 검진: 피부에 이상이나 의심스러운 부분이 있을 경우, 정기적인 피부 검진을 받는 것이 중요합니다.</p>
+                            <p class="fs-5 mb-4">1.규칙적인 건강 체크업:일정한 간격으로 건강 검진을 받아 선별검사를 통해 조기 발견할 수 있도록 합니다.</p>
+                            <p class="fs-5 mb-4">2.피부 건강 유지:햊빛으로부터 피부를 보호하고 부상을 예방하기 위해 적절한 자외선 차단제와 보호장비를 사용합니다.</p>
+                            <p class="fs-5 mb-4">3.규칙적인 운동과 건강한 식단:규칙적인 운동과 영양균형을 잡은 식단은 종양 발생 위험을 감소시키는 데 도움이 될수 잇습니다.</p>
+                            <h2 class="fw-bolder mb-4 mt-5">치료</h2>
+                            <p class="fs-5 mb-4">1.방사선 치료:방사선을 사용하여 종양을 섬유화하거나 축소시키는 방법입니다. 주로 수술 후 잔존 종양을 제거하거나 증상을 완화시키기 위해 사용될 수 있습니다.</p>
+                            <p class="fs-5 mb-4">2.약물 치료:양성 섬유종의 일부 유형은 약물 치료에 반응할 수 있습니다. 이러한 약물은 종양 성장을 억제하거나 축소시키는 데 도움을 줄 수 있습니다. 그러나 약물 치료의 효과는 종양의 특성에 따라 다를 수 있습니다.</p>
+
 
                         </section>
                     </article>

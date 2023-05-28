@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link href="css/styles.css" rel="stylesheet" />
         <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -11,6 +10,7 @@
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body>
         <!-- Responsive navbar-->
@@ -34,7 +34,7 @@
                         <!-- Post header-->
                         <header class="mb-4">
                             <!-- Post title-->
-                            <h1 class="fw-bolder mb-1">멜라닌 세포 모반</h1>
+                            <h1 class="fw-bolder mb-1">흑색종양</h1>
                             <!-- Post meta content-->
                             <div class="text-muted fst-italic mb-2">인공지능 팀프로젝트/2023.06.08</div>
                             <!-- Post categories-->
@@ -43,16 +43,17 @@
                         <figure class="mb-4"><img class="img-fluid rounded" src="{{ image_url }}" alt="..." /></figure>
                         <!-- Post content-->
                         <section class="mb-5">
-                            <p class="fs-5 mb-4">멜라닌 세포 모반 ( nevocytic nevus , nevus-cell nevus 및 일반적으로 두더지 라고도 함 )은 일반적으로 색소 생성 피부 세포의 비암성 상태입니다 </p>
-                            <p class="fs-5 mb-4"> 모반은 납작하거나 융기될 수 있고, 부드럽거나 거칠 수 있으며(사마귀처럼), 모반에서 털이 자라날 수 있습니다. </p>
-                            <p class="fs-5 mb-4">모반은 대체로 피부색이며 노란색, 갈색, 청회색 또는 검정색에 가까운 빛을 띱니다.</p>
-                            <p class="fs-5 mb-4">모반은 흔히 아동기 또는 청소년기에 생기며, 기존에 모반이 있던 경우는 보통 성장에 비례하여 크기가 커지고 짙은 색으로 변합니다.</p>
-                            <p class="fs-5 mb-4">평생 모반이 발생하는 사람도 있습니다. 모반은 신체 어느 부위에서나 나타날 수 있습니다. </p>
+                            <p class="fs-5 mb-4">흑색종양은 피부나 점막에 발생하는 양성 혹은 악성 종양으로서, 흑색소 세포인 멜라닌 세포에서 비정상적인 성장이 발생합니다. 이러한 종양은 가려움, 혹은 색소를 포함한 색상 변화 등 다양한 증상을 보일 수 있습니다. 흑색종양은 메라노사이트라는 세포에서 생긴 피부암 종류 중 하나이며, 주로 피부에 나타나지만 눈, 내장, 임신부의 태반 등 다른 부위에도 발생할 수 있습니다.</p>
+                            <h2 class="fw-bolder mb-4 mt-5">증상</h2>
+                            <p class="fs-5 mb-4">1.주로 피부에서 발생하며, 직경이 크거나 불규칙한 형태를 가질 수 있습니다.</p>
+                            <p class="fs-5 mb-4">2.색상이 다양하며, 흑갈색, 갈색, 진한 갈색, 푸른색 등을 띠는 경우가 있습니다</p>
+                            <p class="fs-5 mb-4">3.크기가 점점 커지거나 모양이 변할 수 있습니다.</p>
+                            <p class="fs-5 mb-4">4.가려움, 출혈, 통증 등의 증상이 나타날 수 있습니다.</p>
                             <h2 class="fw-bolder mb-4 mt-5">예방법</h2>
-                            <p class="fs-5 mb-4">햇빛 차단: 자외선에 노출을 최소화하기 위해 햇볕이 가장 강한 오전 10시부터 오후 4시까지는 직사광선을 피하고, 햇빛이 강한 때에는 모자, 선글라스, 모래 등으로 피부를 보호해야 합니다.</p>
-                            <p class="fs-5 mb-4">자외선 차단제 사용: 자외선 차단제를 꾸준히 사용하여 피부를 보호하는 것이 좋습니다. SPF 지수가 높은 자외선 차단제를 사용하고 자주 발라야 합니다.</p>
-                            <p class="fs-5 mb-4">소량의 자외선에 노출: 자외선은 비타민 D를 생성하는 데 필요하지만 과도한 자외선 노출은 피부암 위험을 증가시킬 수 있습니다. 적절한 양의 자외선에 노출하여 필요한 비타민 D를 얻을 수 있도록 합니다.</p>
-                            <p class="fs-5 mb-4">피부 검진: 피부에 이상이나 의심스러운 부분이 있을 경우, 정기적인 피부 검진을 받는 것이 중요합니다.</p>
+                            <p class="fs-5 mb-4">햇빛 차단: 자외선에 노출되는 것은 흑색종양의 위험을 증가시킬 수 있으므로, 자외선 차단제를 사용하고 햇빛에 오래 노출되는 것을 피해야 합니다. 모자나 옷으로 피부를 보호하는 것도 중요합니다.</p>
+                            <p class="fs-5 mb-4">피부 자가검진: 정기적으로 피부 자가검진을 실시하여 피부에 이상이 있는지 확인하고, 이상이 발견되면 즉시 의료 전문가와 상담하는 것이 중요합니다.</p>
+                            <h2 class="fw-bolder mb-4 mt-5">치료</h2>
+                            <p class="fs-5 mb-4">흑색종양의 치료 방법은 종양의 종류, 크기, 악성도 등에 따라 달라집니다. 주로 수술적 접근법이 사용되며, 종양을 완전히 제거하기 위해 수술이 수행될 수 있습니다. 악성 흑색종양의 경우, 수술 이외에도 화학요법, 방사선 요법, 면역요법 등의 치료 방법이 사용될 수 있습니다. 치료 방법은 종양의 특성과 개인의 상태에 따라 결정되므로, 의료 전문가와 상담하여 적절한 치료 계획을 수립하는 것이 중요합니다. 초기 발견과 조기 치료는 흑색종양의 예후를 개선시키는 데 도움이 됩니다.</p>
 
                         </section>
                     </article>
