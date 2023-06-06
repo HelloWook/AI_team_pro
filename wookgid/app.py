@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
 from keras.models import load_model
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
 from tensorflow.keras.utils import to_categorical
-
 from tensorflow.keras.models import load_model
 
 app = Flask(__name__)
